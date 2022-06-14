@@ -346,13 +346,19 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 "Assets/Scripts/Menu.cs"
 =======
+=======
+>>>>>>> Stashed changes
 "Assets/Scripts/DeathMenu.cs"
 "Assets/Scripts/Death_Trigger.cs"
 "Assets/Scripts/Finish.cs"
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/MusicController.cs"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Volumes.cs"

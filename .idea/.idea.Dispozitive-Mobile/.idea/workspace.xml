@@ -19,11 +19,6 @@
     <select />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="689cd5b5-ce29-453c-b56c-1a87d35bb731" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dispozitive-Mobile/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dispozitive-Mobile/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dispozitive-Mobile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dispozitive-Mobile/.idea/workspace.xml" afterDir="false" />
-=======
     <list default="true" id="ef5cb4a6-9410-419e-a0b2-df6472515cb3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
@@ -311,15 +306,15 @@
       <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,25 +325,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-<<<<<<< Updated upstream
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Volumes.cs" root0="FORCE_HIGHLIGHTING" />
-=======
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Finish.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Death_Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeathMenu.cs" root0="FORCE_HIGHLIGHTING" />
->>>>>>> Stashed changes
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< Updated upstream
-        <option value="$PROJECT_DIR$/Assets/Scripts/Volumes.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="2AX7AfF6tpwBqAURMsS63mD2gk0" />
-=======
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeathMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Finish.cs" />
@@ -361,7 +344,6 @@
   </component>
   <component name="ProjectId" id="2AYa2e4hcRE4kcw4VfWcHxwpudT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
->>>>>>> Stashed changes
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -395,22 +377,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< Updated upstream
-      <changelist id="689cd5b5-ce29-453c-b56c-1a87d35bb731" name="Default Changelist" comment="" />
-      <created>1655143959741</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1655143959741</updated>
-      <workItem from="1655143995548" duration="4916000" />
-=======
       <changelist id="ef5cb4a6-9410-419e-a0b2-df6472515cb3" name="Default Changelist" comment="" />
       <created>1655188783931</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655188783931</updated>
       <workItem from="1655188792308" duration="3000" />
-      <workItem from="1655198345215" duration="6803000" />
->>>>>>> Stashed changes
+      <workItem from="1655198345215" duration="7300000" />
     </task>
     <servers />
   </component>

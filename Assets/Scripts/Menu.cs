@@ -28,12 +28,18 @@ public class Menu : MonoBehaviour
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     public void Return_To_Menu()
     {
         SceneManager.LoadScene("MainMenu");
     }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     
     public void Exit_Game()

@@ -482,7 +482,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1301170577}
+=======
+      - m_Target: {fileID: 1301170578}
+>>>>>>> Stashed changes
 =======
       - m_Target: {fileID: 1301170578}
 >>>>>>> Stashed changes
@@ -620,7 +624,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1301170577}
+=======
+      - m_Target: {fileID: 1301170578}
+>>>>>>> Stashed changes
 =======
       - m_Target: {fileID: 1301170578}
 >>>>>>> Stashed changes
@@ -758,7 +766,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1301170577}
+=======
+      - m_Target: {fileID: 1301170578}
+>>>>>>> Stashed changes
 =======
       - m_Target: {fileID: 1301170578}
 >>>>>>> Stashed changes
@@ -1748,6 +1760,10 @@ GameObject:
   - component: {fileID: 1301170576}
   - component: {fileID: 1301170577}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 1301170578}
+>>>>>>> Stashed changes
 =======
   - component: {fileID: 1301170578}
 >>>>>>> Stashed changes
@@ -1796,7 +1812,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!114 &1301170578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1809,6 +1828,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef9cade660cf65846a8bc8e06cfeeb45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   music_mute: {fileID: 1740581208}
   sound_mute: {fileID: 335382469}
@@ -1899,7 +1921,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1301170577}
+=======
+      - m_Target: {fileID: 1301170578}
+>>>>>>> Stashed changes
 =======
       - m_Target: {fileID: 1301170578}
 >>>>>>> Stashed changes
@@ -2174,7 +2200,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1301170577}
+=======
+      - m_Target: {fileID: 1301170578}
+>>>>>>> Stashed changes
 =======
       - m_Target: {fileID: 1301170578}
 >>>>>>> Stashed changes

@@ -12,6 +12,10 @@ public class Volumes : MonoBehaviour
     public GameObject music_unmute;
     public GameObject sound_unmute;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    public MusicController instance;
+>>>>>>> Stashed changes
 =======
     public MusicController instance;
 >>>>>>> Stashed changes
@@ -32,6 +36,10 @@ public class Volumes : MonoBehaviour
     {
         music_mute.SetActive(false);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        AudioListener.volume = 0;
+>>>>>>> Stashed changes
 =======
         AudioListener.volume = 0;
 >>>>>>> Stashed changes
@@ -42,6 +50,10 @@ public class Volumes : MonoBehaviour
     {
         music_unmute.SetActive(false);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        AudioListener.volume = 1;
+>>>>>>> Stashed changes
 =======
         AudioListener.volume = 1;
 >>>>>>> Stashed changes

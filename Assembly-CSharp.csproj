@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Volumes.cs" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -52,6 +53,8 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
 =======
+=======
+>>>>>>> Stashed changes
      <Compile Include="Assets\Scripts\Death_Trigger.cs" />
      <Compile Include="Assets\Scripts\DeathMenu.cs" />
      <Compile Include="Assets\Scripts\Finish.cs" />
@@ -65,6 +68,9 @@
      <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Models\1. Models.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Textures\1. Main Texture Folder.txt" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -75,7 +81,13 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+=======
+     <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\1. Read Me!.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Prefabs\1. Main Prefab Folder.txt" />
+>>>>>>> Stashed changes
 =======
      <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\1. Read Me!.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
@@ -87,6 +99,10 @@
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+     <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\FreePack vs Full Pack\1. Free vs Full.txt" />
+>>>>>>> Stashed changes
 =======
      <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\FreePack vs Full Pack\1. Free vs Full.txt" />
 >>>>>>> Stashed changes

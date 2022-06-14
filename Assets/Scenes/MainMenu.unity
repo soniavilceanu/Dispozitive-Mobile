@@ -218,7 +218,10 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &457151233
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,6 +363,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 321d3c1cc96974d4ba3522fb6e6c884f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &506727572
 GameObject:
@@ -522,7 +528,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1939269186}
+=======
+      - m_Target: {fileID: 1939269187}
+>>>>>>> Stashed changes
 =======
       - m_Target: {fileID: 1939269187}
 >>>>>>> Stashed changes
@@ -1168,7 +1178,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1939269186}
+=======
+      - m_Target: {fileID: 1939269187}
+>>>>>>> Stashed changes
 =======
       - m_Target: {fileID: 1939269187}
 >>>>>>> Stashed changes
@@ -1306,7 +1320,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1939269186}
+=======
+      - m_Target: {fileID: 1939269187}
+>>>>>>> Stashed changes
 =======
       - m_Target: {fileID: 1939269187}
 >>>>>>> Stashed changes
@@ -1520,7 +1538,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1939269185}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - component: {fileID: 1939269186}
+=======
+  - component: {fileID: 1939269187}
+>>>>>>> Stashed changes
 =======
   - component: {fileID: 1939269187}
 >>>>>>> Stashed changes
@@ -1555,7 +1577,11 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!114 &1939269186
+=======
+--- !u!114 &1939269187
+>>>>>>> Stashed changes
 =======
 --- !u!114 &1939269187
 >>>>>>> Stashed changes
@@ -1568,7 +1594,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: e86dab50fc597744789eac9f3414ea5a, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: a03276833a185244d823e12361dbf367, type: 3}
+>>>>>>> Stashed changes
 =======
   m_Script: {fileID: 11500000, guid: a03276833a185244d823e12361dbf367, type: 3}
 >>>>>>> Stashed changes

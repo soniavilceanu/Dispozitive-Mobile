@@ -14,11 +14,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SettingsMenu.unity
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     guid: 4cd169a4a14a55643a2009d01857879b
 =======
+=======
+>>>>>>> Stashed changes
     guid: afbe1e8a12610ae4a9e9401043172587
   - enabled: 1
     path: Assets/Scenes/DeathScreen.unity
     guid: 2e7a75bcb9ee79348b97d32a1ee107e2
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_configObjects: {}
