@@ -27,6 +27,14 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("SettingsMenu"); 
     }
 
+<<<<<<< Updated upstream
+=======
+    public void Return_To_Menu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+>>>>>>> Stashed changes
     
     public void Exit_Game()
     {

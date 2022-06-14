@@ -7,7 +7,15 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+<<<<<<< Updated upstream
           <e p="Menu.cs" t="Include" />
+=======
+          <e p="Death_Trigger.cs" t="Include" />
+          <e p="DeathMenu.cs" t="Include" />
+          <e p="Finish.cs" t="Include" />
+          <e p="Menu.cs" t="Include" />
+          <e p="MusicController.cs" t="Include" />
+>>>>>>> Stashed changes
           <e p="PlayerMovement.cs" t="Include" />
           <e p="Volumes.cs" t="Include" />
         </e>
@@ -43,6 +51,29 @@
             <e p="EmojiOne.json" t="Include" />
           </e>
         </e>
+<<<<<<< Updated upstream
+=======
+        <e p="Toby Fredson" t="Include">
+          <e p="Dwarven Expedition Pack - Stylized Assets" t="Include">
+            <e p="1. Read Me!.txt" t="Include" />
+            <e p="FreePack vs Full Pack" t="Include">
+              <e p="1. Free vs Full.txt" t="Include" />
+            </e>
+            <e p="Materials" t="Include">
+              <e p="1. Main Material Folder.txt" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="1. Models.txt" t="Include" />
+            </e>
+            <e p="Prefabs" t="Include">
+              <e p="1. Main Prefab Folder.txt" t="Include" />
+            </e>
+            <e p="Textures" t="Include">
+              <e p="1. Main Texture Folder.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+>>>>>>> Stashed changes
       </e>
       <e p="Dispozitive-Mobile.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

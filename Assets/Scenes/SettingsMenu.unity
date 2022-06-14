@@ -481,7 +481,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1301170577}
+=======
+      - m_Target: {fileID: 1301170578}
+>>>>>>> Stashed changes
         m_TargetAssemblyTypeName: Volumes, Assembly-CSharp
         m_MethodName: Back
         m_Mode: 1
@@ -615,7 +619,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1301170577}
+=======
+      - m_Target: {fileID: 1301170578}
+>>>>>>> Stashed changes
         m_TargetAssemblyTypeName: Volumes, Assembly-CSharp
         m_MethodName: Unmute_Sound
         m_Mode: 1
@@ -749,7 +757,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1301170577}
+=======
+      - m_Target: {fileID: 1301170578}
+>>>>>>> Stashed changes
         m_TargetAssemblyTypeName: Volumes, Assembly-CSharp
         m_MethodName: Mute_Sound
         m_Mode: 1
@@ -1735,6 +1747,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1301170576}
   - component: {fileID: 1301170577}
+<<<<<<< Updated upstream
+=======
+  - component: {fileID: 1301170578}
+>>>>>>> Stashed changes
   m_Layer: 5
   m_Name: Volumes
   m_TagString: Untagged
@@ -1779,6 +1795,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a4510584596f0d4a8d1eb328e93a5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+=======
+--- !u!114 &1301170578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301170575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef9cade660cf65846a8bc8e06cfeeb45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
   music_mute: {fileID: 1740581208}
   sound_mute: {fileID: 335382469}
   music_unmute: {fileID: 1441819343}
@@ -1867,7 +1898,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1301170577}
+=======
+      - m_Target: {fileID: 1301170578}
+>>>>>>> Stashed changes
         m_TargetAssemblyTypeName: Volumes, Assembly-CSharp
         m_MethodName: Unmute_Music
         m_Mode: 1
@@ -2138,7 +2173,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< Updated upstream
       - m_Target: {fileID: 1301170577}
+=======
+      - m_Target: {fileID: 1301170578}
+>>>>>>> Stashed changes
         m_TargetAssemblyTypeName: Volumes, Assembly-CSharp
         m_MethodName: Mute_Music
         m_Mode: 1
