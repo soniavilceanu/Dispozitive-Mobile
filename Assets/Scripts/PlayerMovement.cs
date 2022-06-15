@@ -13,7 +13,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private TextMeshProUGUI superJumpsGUI;
     [SerializeField] private TextMeshProUGUI colliderTextGUI;
     [SerializeField] private GameObject part;
-
+    [SerializeField] private TextMeshProUGUI coord;
+    [SerializeField] private TextMeshProUGUI highscore;
+    
     public static int scoreValue = 0;
 
     bool jumpKeyWasPressed;
@@ -28,6 +30,9 @@ public class PlayerMovement : MonoBehaviour
     private GameObject model;
     private string axis;
     private GameObject canvas;
+    private int highscoreValue;
+    
+    
 
 
     // Start is called before the first frame update
@@ -43,6 +48,14 @@ public class PlayerMovement : MonoBehaviour
         axis = "Horizontal";
 
         canvas = GameObject.Find("Canvas");
+
+
+
+        highscore.text = PlayerPrefs.GetInt("Highscore", 0).ToString();
+        
+
+
+
 
     }
 
@@ -108,7 +121,13 @@ public class PlayerMovement : MonoBehaviour
 
 
         scoreGUI.text = "Score: " + scoreValue;
+        
+        
+
         superJumpsGUI.text = "Super Jumps: " + superJumps;
+
+        coord.text = "Coord.: " + "(" + System.Math.Round(this.gameObject.transform.position.x,1) + "," + System.Math.Round(this.gameObject.transform.position.y,1) + "," + System.Math.Round(this.gameObject.transform.position.z,1) + ")";
+        
     }
 
 
@@ -128,6 +147,14 @@ public class PlayerMovement : MonoBehaviour
             
             scoreValue++;
 
+            if (scoreValue > PlayerPrefs.GetInt("Highscore", 0))
+            {
+                PlayerPrefs.SetInt("Highscore", scoreValue);
+                highscore.text = scoreValue.ToString();
+            }
+
+            scoreGUI.color = Color.red;
+            StartCoroutine(wait2(scoreGUI));
             StartCoroutine(wait());
 
 
@@ -144,9 +171,13 @@ public class PlayerMovement : MonoBehaviour
             
             colliderTextGUI.text = "You collected a SUPER coin!";
 
+            superJumps++;
+            superJumpsGUI.color = Color.red;
+            StartCoroutine(wait2(superJumpsGUI));
+
             StartCoroutine(wait());
 
-            superJumps++;
+            
 
         }
 
@@ -173,6 +204,11 @@ public class PlayerMovement : MonoBehaviour
                 //end of game
                 Destroy(other.gameObject);
 
+
+
+
+
+               
                 
             }
             
@@ -188,17 +224,14 @@ public class PlayerMovement : MonoBehaviour
         colliderTextGUI.gameObject.SetActive(false);
     }
 
-    public void turnOnFireworks()
+    IEnumerator wait2(TextMeshProUGUI gui)
     {
-        
+        yield return new WaitForSeconds(0.5f);
 
-        if(GameObject.Find("Fireworks(Clone)") == true)
-        {
-            GameObject fireworks = GameObject.Find("Fireworks(Clone)");
-            Destroy(fireworks);
-        }
-        else Instantiate(part);
+        gui.color = Color.white;
     }
+
+   
 
     /*
     public void hideCanvas()
