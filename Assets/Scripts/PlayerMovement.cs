@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.EventSystems;
+using System.Linq;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject part;
     [SerializeField] private TextMeshProUGUI coord;
     [SerializeField] private TextMeshProUGUI highscore;
+    [SerializeField] private Joystick joystick;
+
     
     public static int scoreValue = 0;
 
@@ -45,30 +49,60 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         model = GameObject.Find("Model");
 
-        axis = "Horizontal";
+        
 
         canvas = GameObject.Find("Canvas");
 
 
 
         highscore.text = PlayerPrefs.GetInt("Highscore", 0).ToString();
-        
 
 
 
-
+      
     }
 
     // Update is called once per frame
     void Update()
     {
+       
+
+
+        var validTouches = Input.touches.Where(touch => !EventSystem.current.IsPointerOverGameObject(touch.fingerId)).ToArray();
+
+        
+        //PC CONTROLS FOR JUMP
+        
         if (Input.GetKeyDown(KeyCode.Space))
         {
             jumpKeyWasPressed = true;
         }
 
+        horizontalInput = Input.GetAxis("Horizontal");
 
-        horizontalInput = Input.GetAxis(axis);
+        /*
+
+        //ANDROID CONTROLS FOR JUMP
+        foreach (Touch touch in Input.touches)
+        {
+            if (touch.phase == TouchPhase.Began && validTouches.Length == 1 && touch.tapCount == 1)
+            {
+                jumpKeyWasPressed = true;
+            }
+        }
+
+
+        if (joystick.Horizontal >= .2f)
+            horizontalInput = joystick.Horizontal;
+        else if (joystick.Horizontal <= -.2f)
+            horizontalInput = joystick.Horizontal;
+        else horizontalInput = 0;
+
+        
+      
+        */
+
+
 
         if (horizontalInput != 0)
         {
@@ -96,9 +130,12 @@ public class PlayerMovement : MonoBehaviour
 
 
             if (superJumps > 0)
+            {
+
+                //PC CONTROLS FOR SUPER JUMP
+                
                 if (Input.GetKeyDown(KeyCode.LeftShift))
                 {
-
                     anim.SetFloat("jumpSpeed", 0.5f);
 
                     anim.SetBool("Jump", true);
@@ -109,9 +146,33 @@ public class PlayerMovement : MonoBehaviour
 
 
                     superJumps--;
-
-
                 }
+                
+
+                /*
+
+
+                //ANDROID CONTROLS FOR SUPER JUMP
+                //DOESN'T WORK
+                // WE WILL USE UI BUTTON
+                foreach (Touch touch in Input.touches)
+                {
+                    if (touch.phase == TouchPhase.Began && validTouches.Length == 2 && touch.tapCount == 2)
+                    {
+                        anim.SetFloat("jumpSpeed", 0.5f);
+
+                        anim.SetBool("Jump", true);
+
+                        rigidbody.AddForce(Vector3.up * 7f, ForceMode.VelocityChange);
+
+                        jumpKeyWasPressed = false;
+
+
+                        superJumps--;
+                    }
+                }*/
+              
+            }
         }
 
         else anim.SetBool("Jump", false);
@@ -151,6 +212,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 PlayerPrefs.SetInt("Highscore", scoreValue);
                 highscore.text = scoreValue.ToString();
+
+                //highscore.text = PlayerPrefs.GetInt("Highscore", 0);
             }
 
             scoreGUI.color = Color.red;
@@ -195,8 +258,7 @@ public class PlayerMovement : MonoBehaviour
                 Destroy(other.gameObject);
 
                 this.gameObject.transform.position = new Vector3(0, 0, 51);
-                //this.gameObject.transform.rotation = Quaternion.Euler(0, 90, 0);
-                //axis = "Horizontal"; ???
+               
             }
             else if (level == 3)
             {
@@ -217,6 +279,21 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
+    public bool IsPointerOverUI(int fingerId)
+    {
+        // EventSystem eventSystem = eventSystem.current;
+        //return (eventSystem.IsPointerOverGameObject(fingerId)
+        //     && eventSystem.currentSelectedGameObject != null);
+
+        if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
+        {
+            //we touched the UI
+            return true;
+        }
+        else return false;
+
+    }
+
     IEnumerator wait()
     {
         yield return new WaitForSeconds(1);
@@ -232,23 +309,23 @@ public class PlayerMovement : MonoBehaviour
     }
 
    
-
-    /*
-    public void hideCanvas()
+    public void SuperJump()
     {
-        
-        if(canvas.active == true)
-        canvas.SetActive(false);
 
-        else canvas.SetActive(true);
-        
-        //Destroy(canvas);
+        if (superJumps > 0)
+        {
+            anim.SetFloat("jumpSpeed", 0.5f);
 
+            anim.SetBool("Jump", true);
+
+            rigidbody.AddForce(Vector3.up * 7f, ForceMode.VelocityChange);
+
+            jumpKeyWasPressed = false;
+
+
+            superJumps--;
+        }
+          
     }
 
-    public void showCanvas()
-    {
-        //canvas.SetActive(true);
-        //Instantiate(canvas);
-    }*/
 }
