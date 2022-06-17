@@ -120,8 +120,8 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"F:/Gituri/Dispozitive-Mobile/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
--r:"F:/Gituri/Dispozitive-Mobile/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"F:/Gituri/Dispozitive-Mobile-main/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"F:/Gituri/Dispozitive-Mobile-main/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"F:/Unity/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"F:/Unity/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"F:/Unity/2021.3.4f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -345,22 +345,21 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"Assets/Scripts/Menu.cs"
-=======
-=======
->>>>>>> Stashed changes
-"Assets/Scripts/DeathMenu.cs"
+"Assets/Joystick Pack/Examples/JoystickPlayerExample.cs"
+"Assets/Joystick Pack/Examples/JoystickSetterExample.cs"
+"Assets/Joystick Pack/Scripts/Base/Joystick.cs"
+"Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs"
+"Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs"
+"Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
+"Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
+"Assets/Scripts/ButtonClick.cs"
+"Assets/Scripts/CoinDestroy.cs"
 "Assets/Scripts/Death_Trigger.cs"
 "Assets/Scripts/Finish.cs"
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/MusicController.cs"
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/Score.cs"
 "Assets/Scripts/Volumes.cs"
 -langversion:9.0
 

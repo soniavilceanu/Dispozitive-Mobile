@@ -7,24 +7,17 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
-    guid: 8bb57d4b2e953b149b23ab257a9a3ac0
+    guid: dfe7b65b73e82b74584d424f3051da57
   - enabled: 1
     path: Assets/Scenes/MainGame.unity
     guid: 625056540b64b984ab12b634c46e5861
   - enabled: 1
     path: Assets/Scenes/SettingsMenu.unity
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    guid: 4cd169a4a14a55643a2009d01857879b
-=======
-=======
->>>>>>> Stashed changes
-    guid: afbe1e8a12610ae4a9e9401043172587
+    guid: e1ecb1cf41f822642ac6cc894ab97851
   - enabled: 1
     path: Assets/Scenes/DeathScreen.unity
-    guid: 2e7a75bcb9ee79348b97d32a1ee107e2
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+    guid: 6ced394e1a639bd4fbf50601dccc0346
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: aa6d1ae7d855d0a42989d245352df274
   m_configObjects: {}
